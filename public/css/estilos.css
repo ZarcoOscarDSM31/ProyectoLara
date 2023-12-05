@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffeb3b; /* Amarillo */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+
+.logo a {
+    color: #0f0101;
+    text-decoration: none;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    color: #f39c12; /* Anaranjado */
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #e67e22;
+}
+
+h1 {
+    color: #3498db; /* Azul */
+}
+
+p {
+    color: #666;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+.card {
+    width: calc(33.33% - 20px); /* Ajustar el ancho según el número de cards */
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 40%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+}
+
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+}
+/* ... otros estilos ... */
+
+.auth-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auth-section h2 {
+    color: #333;
+}
+
+.auth-section p {
+    color: #666;
+}
+
+.auth-section a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.auth-section a:hover {
+    background-color: #2a77b8;
+}
+
+
+footer {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Añadido margen superior para evitar solapamiento con el contenido */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.auth-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-sections {
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: #2a77b8;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.auth-sections h1, .auth-sections h2 {
+    color: #3498db; /* Azul para el texto principal */
+}
+
+.auth-sections a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e67e22; /* Nuevo color anaranjado */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.container h1 {
+    position: relative;
+    padding-left: 150px; /* Ajusta el espacio para la imagen */
+}
+
+.container h1::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 120px; /* Ancho de la imagen */
+    height: 120px; /* Altura de la imagen */
+    background: url('https://i.pinimg.com/564x/94/4f/b6/944fb603f005a658d7e2d89fb550eded.jpg') center center no-repeat; /* Ruta a la imagen lateral */
+    background-size: cover;
+    transform: translateY(-50%);
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+
+.quien h1 {
+    position: relative;
+    padding-right: 150px; /* Ajusta el espacio para la imagen */
+}
+
+.quien h1::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 120px; /* Ancho de la imagen */
+    height: 120px; /* Altura de la imagen */
+    background: url('https://i.pinimg.com/564x/94/4f/b6/944fb603f005a658d7e2d89fb550eded.jpg') center center no-repeat; /* Ruta a la imagen lateral */
+    background-size: cover;
+    transform: translateY(-50%);
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.quienes-somos-image {
+    text-align: center;
+}
+
+.quienes-somos-image img {
+    display: inline-block;
+}
+/* Agrega estilos para la galería */
+#galeria {
+    margin-top: 30px;
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.galeria-img {
+    width: 23%; /* Ajusta según tus necesidades */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.col {
+    color: #2a77b8;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: #2a77b8;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.col h1 {
+    color: #3498db; /* Azul para el texto principal */
+}
